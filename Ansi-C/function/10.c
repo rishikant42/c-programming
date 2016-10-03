@@ -1,21 +1,24 @@
-#include<iostream>
-using namespace std;
-int add(int x, int y);
-int main()
+#include<stdio.h>
+main()				/*calling fn*/
 {
-  int a,b,result;
-  cout<<"Enter two value\n";
-  result = add(a, b);
-  cout<<"sum of given two no is "<<result<<"\n";
-  return 0;
+  int c,a,b;
+  printf("Enter any 2 no\n");
+  scanf("%d%d",&a,&b);
+  c=sum(a,b);
+  printf("sum=%d\n",c);
 }
-
-int add(int p, int q)
+int sum(int x,int y)		/*called fn*/
 {
   int z;
-  z = p+q;
-  return z;
+  z=x+y;
+  //return(z);
 }
 
 
 
+
+
+
+/*is it necessary to declare to declare x & y?*/
+/*which is return stmnt & wt its role*/
+/*here c is calling argument*/
