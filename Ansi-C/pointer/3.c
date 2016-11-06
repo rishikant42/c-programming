@@ -11,14 +11,3 @@ main()
   printf("%d is stored at address %u\n",x,&x);
   printf("%f & %f is stored at %u & %u respt\n",p,q,&p,&q);
 }
-
-
-
-
-
-
-
-
-
-
-
