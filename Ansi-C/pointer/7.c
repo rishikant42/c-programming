@@ -37,5 +37,12 @@ int main() {
   for(i=0;i<5;i++)
     printf("a[%d] = %d\n", i, *pb++);
 
+  printf("\nLearn more\n\n");
+
+
+  int *pc;
+  pc = &a[3];
+  printf("a[3] = %d\n", *pc);
+
   return 0;
 }
