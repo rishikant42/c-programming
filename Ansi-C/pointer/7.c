@@ -44,5 +44,19 @@ int main() {
   pc = &a[3];
   printf("a[3] = %d\n", *pc);
 
+
+  printf("*************************\n");
+  int *pd;
+  pd = &a[0];
+  for(i=0;i<5;i++)
+    printf("a[%d] = %d\n", i, pd[i]);
+
+
+  printf("*************************\n");
+  int *pe;
+  pe = a;
+  for(i=0;i<5;i++)
+    printf("a[%d] = %d\n", i, pe[i]);
+
   return 0;
 }
