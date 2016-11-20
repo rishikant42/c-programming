@@ -11,3 +11,5 @@ main() {
   printf("\nGood Bye\n");
 
 }
+
+// This program doesn't understand meaning of ctrl + d
