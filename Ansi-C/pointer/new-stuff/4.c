@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-typedef struct person
+struct person
 {
   int age;
   float weight;
